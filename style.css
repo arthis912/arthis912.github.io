@@ -1,0 +1,169 @@
+/* Applies a background and makes sure no margin around top bar */
+body {
+    background-color:#eff7d5;
+    margin: 0;
+}
+
+/* Creates header at the top with bg color */
+.header {
+    background-color:#c1cc9c;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    width: auto;
+    margin: 0;
+    top: 0;
+    left: 0;
+    
+}
+
+/* Styles individual image */
+.works-image {
+    height: 350px;
+    width: 100%;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+/* Make sure no bullets are shown, width is given properly, and a specific font is chosen */
+#works-list {
+    list-style: none;
+    width: auto;
+    font-family: 'Courier New';
+}
+
+/* Makes this list horizontal rather than vertical and spaces it properly */
+#works-list li {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#works-list li p {
+    text-align: center;
+}
+
+/* Space each member's photo and link properly */
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 24%;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Formatting name of each member (link to their portfolio) */
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Courier New';
+    background-color:#ffffff;
+}
+
+/* Formatting logo image */
+#logo {
+    height: 100px;
+}
+
+
+
+#arthi-body{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: DarkGray; 
+    
+}
+
+#arthi-content {
+    margin: 0 auto;
+    padding: 3em 2em;
+    max-width: 576px;
+    background-color: White; 
+}
+
+
+#arthi-h1 {
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+}
+
+#arthi-h2 {
+    float: center;
+    clear: left;
+    width: 150px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-style: italic;
+    white-space: nowrap;
+    line-height: 0.5;
+}
+
+#arthi-h2-2 {
+    float: center;
+    clear: left;
+    width: 150px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    font-style: italic;
+    white-space: nowrap;
+    line-height: 0.5;
+}
+
+#arthi-contactInfo {
+    border-top: 2px solid #00008B;
+    border-bottom: 2px solid #00008B;
+    padding: 4px 0  4px 0;
+    margin: 0;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+#arthi-contactInfo li {
+    display: inline;
+    list-style: none;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#arthi-eduInfo li {
+    display: inline;
+    list-style: none;
+    margin: 0 0.5em 0 0.5em;
+}
+
+#arthi-workInfo li{
+    list-style-type: square;
+}
+
+#arthi-subList li{
+    list-style-type: circle;
+}
+
+#arthi-p {
+    text-indent: 0px;
+   }
+
+.dates {
+    float: right;
+    clear: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
